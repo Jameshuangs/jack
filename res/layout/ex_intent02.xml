@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExIntent02Activity" >
+
+    <TextView android:id="@+id/txtMain"
+        android:layout_width="fill_parent"     
+		android:layout_height="wrap_content"  
+		android:text="好事多" 
+		android:textColor="#0000FF" 
+		android:textSize="24sp"/>
+	
+	<Button android:id="@+id/btnPage2"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/txtMain"
+	    android:text="記帳" />
+	
+	<Button android:id="@+id/btnPage3"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/btnPage2"
+	    android:text="課表" />
+	
+	<Button android:id="@+id/btnPage4"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/btnPage3"
+	    android:text="行事曆" />
+
+</RelativeLayout>
