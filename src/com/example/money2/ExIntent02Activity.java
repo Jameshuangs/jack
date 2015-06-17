@@ -10,6 +10,7 @@ import com.example.money2.R;
 
 public class ExIntent02Activity extends Activity {
 // i am in jack
+// i konw
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
