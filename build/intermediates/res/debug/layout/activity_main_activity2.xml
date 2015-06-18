@@ -68,7 +68,8 @@
                     android:layout_height="45dp"
                     android:layout_toRightOf="@id/date"
                     android:ems="10"
-                    android:inputType="date" />
+                    android:inputType="date"
+                    android:singleLine="true"/>
 
                 <TextView
                     android:id="@+id/dollar"
@@ -85,7 +86,8 @@
                     android:layout_below="@id/date2"
                     android:layout_toRightOf="@id/dollar"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:singleLine="true"/>
 
                 <TextView
                     android:id="@+id/detail"
@@ -93,7 +95,8 @@
                     android:layout_height="45dp"
                     android:layout_below="@id/dollar"
                     android:text="花費"
-                    android:textSize="24sp" />
+                    android:textSize="24sp"
+                    android:singleLine="true"/>
 
                 <EditText
                     android:id="@+id/detail2"
@@ -122,6 +125,17 @@
                 android:layout_height="fill_parent" >
 
                 <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentTop="false"
+                    android:layout_centerHorizontal="true"
+                    android:layout_toLeftOf="@+id/clear"
+                    android:text="取消" />
+
+
+                <Button
                     android:id="@+id/clear"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -146,4 +160,4 @@
 
     </RelativeLayout>
 
-</RelativeLayout><!-- From: file:/C:/Users/USER/workspace/money2/res/layout/activity_main_activity2.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/user/workspace/money2/res/layout/activity_main_activity2.xml -->

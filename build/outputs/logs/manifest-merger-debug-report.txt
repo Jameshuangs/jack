@@ -1,8 +1,6 @@
 -- Merging decision tree log ---
 manifest
 ADDED from AndroidManifest.xml:2:1
-	xmlns:android
-		ADDED from AndroidManifest.xml:2:11
 	package
 		ADDED from AndroidManifest.xml:3:5
 	android:versionName
@@ -11,8 +9,10 @@ ADDED from AndroidManifest.xml:2:1
 		ADDED from AndroidManifest.xml:4:5
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
 uses-sdk
-ADDED from AndroidManifest.xml:7:5
+ADDED from AndroidManifest.xml:7:6
 	android:targetSdkVersion
 		ADDED from AndroidManifest.xml:9:9
 	android:minSdkVersion
@@ -27,7 +27,7 @@ ADDED from AndroidManifest.xml:11:5
 		ADDED from AndroidManifest.xml:13:9
 	android:theme
 		ADDED from AndroidManifest.xml:15:9
-activity#com.example.money2.MainActivity3
+activity#com.example.money2.ExIntent02Activity
 ADDED from AndroidManifest.xml:16:9
 	android:label
 		ADDED from AndroidManifest.xml:18:13
@@ -43,3 +43,47 @@ category#android.intent.category.LAUNCHER
 ADDED from AndroidManifest.xml:22:17
 	android:name
 		ADDED from AndroidManifest.xml:22:27
+activity#com.example.money2.Second2
+ADDED from AndroidManifest.xml:25:11
+	android:label
+		ADDED from AndroidManifest.xml:25:21
+	android:name
+		ADDED from AndroidManifest.xml:25:45
+activity#com.example.money2.Second2_1
+ADDED from AndroidManifest.xml:26:11
+	android:label
+		ADDED from AndroidManifest.xml:26:21
+	android:name
+		ADDED from AndroidManifest.xml:26:47
+activity#com.example.money2.item
+ADDED from AndroidManifest.xml:27:11
+	android:label
+		ADDED from AndroidManifest.xml:27:44
+	android:name
+		ADDED from AndroidManifest.xml:27:22
+activity#com.example.money2.intoActivity
+ADDED from AndroidManifest.xml:29:11
+	android:label
+		ADDED from AndroidManifest.xml:29:21
+	android:name
+		ADDED from AndroidManifest.xml:29:50
+activity#com.example.money2.textActivity
+ADDED from AndroidManifest.xml:30:11
+	android:label
+		ADDED from AndroidManifest.xml:30:21
+	android:name
+		ADDED from AndroidManifest.xml:30:50
+activity#com.example.money2.MainActivity
+ADDED from AndroidManifest.xml:31:11
+	android:label
+		ADDED from AndroidManifest.xml:31:21
+	android:name
+		ADDED from AndroidManifest.xml:31:50
+activity#com.example.money2.ui.activity.intoActivity
+ADDED from AndroidManifest.xml:33:11
+	android:name
+		ADDED from AndroidManifest.xml:33:21
+activity#com.example.money2.ui.activity.textActivity
+ADDED from AndroidManifest.xml:34:11
+	android:name
+		ADDED from AndroidManifest.xml:34:21
