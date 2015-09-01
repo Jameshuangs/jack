@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\user\workspace\money2\libs\android-support-v4.jar"
+        jar="C:\Users\user\workspace\jack\libs\android-support-v4.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="3e4e879d0b3dc11f2feb3f55e77e3b5bd82c4a28">
-        <dex dex="C:\Users\user\workspace\money2\build\intermediates\pre-dexed\debug\android-support-v4-22444e07c312f1da483452e007afd56a2c108bb9.jar" />
+        <dex dex="C:\Users\user\workspace\jack\build\intermediates\pre-dexed\debug\android-support-v4-ddf26cd657814874576499cfcdf000a165174309.jar" />
     </item>
 
 </items>
