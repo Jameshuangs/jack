@@ -15,7 +15,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 public class intoActivity extends Activity {
-	//123
+	//123//123
 	@Override
 	protected void onCreate(Bundle savedInstanceState){
 		super.onCreate(savedInstanceState);
