@@ -9,9 +9,9 @@ import android.widget.Button;
 import com.example.money2.R;
 //i am james
 public class ExIntent02Activity extends Activity {
-
-
-
+//456
+//456879
+//123456
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
