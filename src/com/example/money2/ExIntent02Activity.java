@@ -10,7 +10,7 @@ import com.example.money2.R;
 //i am james
 public class ExIntent02Activity extends Activity {
 
-
+//123
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
